@@ -12,7 +12,7 @@ struct SignInView: View {
     var body: some View {
         VStack {
             Spacer()
-                    .frame(height: 50)
+                .frame(height: 50)
             VStack(alignment: .center) {
                 Text("Y")
                     .foregroundColor(.white)
@@ -67,7 +67,6 @@ struct SignInView: View {
                     }
                     .frame(minWidth: 100, maxWidth: .infinity, minHeight: 44)
                     .foregroundColor(.black)
-                    //.border(Color.gray, width: 2)
                     .overlay(
                         RoundedRectangle(cornerRadius: 5)
                             .stroke(Color.gray, lineWidth: 2)
