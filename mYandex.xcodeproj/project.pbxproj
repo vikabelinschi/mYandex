@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3D74368278596000003E05F /* mYandexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D74367278596000003E05F /* mYandexApp.swift */; };
-		A3D7436A278596000003E05F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D74369278596000003E05F /* ContentView.swift */; };
+		A3D7436A278596000003E05F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D74369278596000003E05F /* SignInView.swift */; };
 		A3D7436C278596010003E05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D7436B278596010003E05F /* Assets.xcassets */; };
 		A3D7436F278596010003E05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D7436E278596010003E05F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		A3D74364278596000003E05F /* mYandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mYandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D74367278596000003E05F /* mYandexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mYandexApp.swift; sourceTree = "<group>"; };
-		A3D74369278596000003E05F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3D74369278596000003E05F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		A3D7436B278596010003E05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D7436E278596010003E05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				A3D74367278596000003E05F /* mYandexApp.swift */,
-				A3D74369278596000003E05F /* ContentView.swift */,
+				A3D74369278596000003E05F /* SignInView.swift */,
 				A3D7436B278596010003E05F /* Assets.xcassets */,
 				A3D7436D278596010003E05F /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D7436A278596000003E05F /* ContentView.swift in Sources */,
+				A3D7436A278596000003E05F /* SignInView.swift in Sources */,
 				A3D74368278596000003E05F /* mYandexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,9 +271,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mYandex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mYandex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +299,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"mYandex/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mYandex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
